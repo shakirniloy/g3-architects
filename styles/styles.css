@@ -83,6 +83,52 @@ nav ul li a:hover{
     margin-top: 50px;
 }
 
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* teams styles */
+.teams-container{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.teams-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4rem;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+
+.quick-list{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.our{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.text-features{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.teams-description{
+    color:#727272;
+    line-height: 26px;
+    margin: 25px 0 30px;
+}
+
 /* mobile responsive */
 @media screen and (max-width: 576px) {
     /* header responsive */
