@@ -86,7 +86,7 @@ nav ul li a:hover{
 /* main styles */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 /* teams styles */
@@ -151,6 +151,19 @@ main{
     .banner-title{
         font-size: 3rem;
     }
+
+    /* teams responsive */
+    .teams-container{
+        flex-direction: column;
+    }
+
+    .teams-image-container{
+        grid-template-columns: 1fr;
+    }
+    
+    .teams-content{
+        padding: 30px;
+    }
 }
 
 /* responsive medium device */
@@ -163,5 +176,18 @@ main{
     nav{
         flex-direction: column;
         gap: 20px;
+    }
+
+    /* teams responsive */
+    .teams-container{
+        flex-direction: column-reverse;
+    }
+
+    .teams-image-container{
+        transform: scale(0.8);
+    }
+    
+    .teams-content{
+        padding: 30px;
     }
 }
